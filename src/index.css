@@ -12,8 +12,8 @@
   --s4: calc(var(--s3) * var(--ratio));
   --s5: calc(var(--s4) * var(--ratio));
 
-  /* TODO: fix */
-  --border-thin: 1px;
+  --border-thin: var(--s-5);
+  --measure: 65ch;
 }
 
 * {

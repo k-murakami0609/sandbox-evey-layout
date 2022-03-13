@@ -1,0 +1,15 @@
+.center {
+  display: block;
+  box-sizing: content-box;
+  margin-inline: auto;
+}
+
+.intrinsic {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.andText {
+  text-align: center;
+}
