@@ -1,14 +1,21 @@
 :root {
   --ratio: 1.5;
-  --s-5: calc(var(--s-4) / var(--ratio));
-  --s-4: calc(var(--s-3) / var(--ratio));
-  --s-3: calc(var(--s-2) / var(--ratio));
-  --s-2: calc(var(--s-1) / var(--ratio));
-  --s-1: calc(var(--s0) / var(--ratio));
+  --sm5: calc(var(--sm4) / var(--ratio));
+  --sm4: calc(var(--sm3) / var(--ratio));
+  --sm3: calc(var(--sm2) / var(--ratio));
+  --sm2: calc(var(--sm1) / var(--ratio));
+  --sm1: calc(var(--s0) / var(--ratio));
   --s0: 1rem;
   --s1: calc(var(--s0) * var(--ratio));
   --s2: calc(var(--s1) * var(--ratio));
   --s3: calc(var(--s2) * var(--ratio));
   --s4: calc(var(--s3) * var(--ratio));
   --s5: calc(var(--s4) * var(--ratio));
+
+  /* TODO: fix */
+  --border-thin: 1px;
+}
+
+* {
+  box-sizing: border-box;
 }
